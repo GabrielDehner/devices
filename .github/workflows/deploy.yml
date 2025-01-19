@@ -27,11 +27,11 @@ jobs:
 
     # 4. Generar el build de Angular
     - name: Build Angular App
-      run: npm run build -- --output-path=dist --base-href=https://gabrieldehner.github.io/devices/ # Reemplaza "<tu-repo>" con el nombre de tu repositorio
+      run: npm run build -- --output-path=dist --base-href=https://gabrieldehner.github.io/devices/browser # Reemplaza "<tu-repo>" con el nombre de tu repositorio
 
     # 5. Desplegar en GitHub Pages
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist/devices
+        publish_dir: ./dist
