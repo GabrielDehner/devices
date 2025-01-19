@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1737298541224,
-  "index": "https://gabrieldehner.github.io/devices/browser/index.html",
+  "timestamp": 1737298805853,
+  "index": "https://gabrieldehner.github.io/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,12 +11,12 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://gabrieldehner.github.io/devices/browser/favicon.ico",
-        "https://gabrieldehner.github.io/devices/browser/index.html",
-        "https://gabrieldehner.github.io/devices/browser/main-VBKZCZZ5.js",
-        "https://gabrieldehner.github.io/devices/browser/manifest.webmanifest",
-        "https://gabrieldehner.github.io/devices/browser/polyfills-FFHMD2TL.js",
-        "https://gabrieldehner.github.io/devices/browser/styles-5INURTSO.css"
+        "https://gabrieldehner.github.io/favicon.ico",
+        "https://gabrieldehner.github.io/index.html",
+        "https://gabrieldehner.github.io/main-VBKZCZZ5.js",
+        "https://gabrieldehner.github.io/manifest.webmanifest",
+        "https://gabrieldehner.github.io/polyfills-FFHMD2TL.js",
+        "https://gabrieldehner.github.io/styles-5INURTSO.css"
       ],
       "patterns": []
     },
@@ -28,34 +28,34 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://gabrieldehner.github.io/devices/browser/icons/icon-128x128.png",
-        "https://gabrieldehner.github.io/devices/browser/icons/icon-144x144.png",
-        "https://gabrieldehner.github.io/devices/browser/icons/icon-152x152.png",
-        "https://gabrieldehner.github.io/devices/browser/icons/icon-192x192.png",
-        "https://gabrieldehner.github.io/devices/browser/icons/icon-384x384.png",
-        "https://gabrieldehner.github.io/devices/browser/icons/icon-512x512.png",
-        "https://gabrieldehner.github.io/devices/browser/icons/icon-72x72.png",
-        "https://gabrieldehner.github.io/devices/browser/icons/icon-96x96.png"
+        "https://gabrieldehner.github.io/icons/icon-128x128.png",
+        "https://gabrieldehner.github.io/icons/icon-144x144.png",
+        "https://gabrieldehner.github.io/icons/icon-152x152.png",
+        "https://gabrieldehner.github.io/icons/icon-192x192.png",
+        "https://gabrieldehner.github.io/icons/icon-384x384.png",
+        "https://gabrieldehner.github.io/icons/icon-512x512.png",
+        "https://gabrieldehner.github.io/icons/icon-72x72.png",
+        "https://gabrieldehner.github.io/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://gabrieldehner.github.io/devices/browser/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "https://gabrieldehner.github.io/devices/browser/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
-    "https://gabrieldehner.github.io/devices/browser/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
-    "https://gabrieldehner.github.io/devices/browser/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
-    "https://gabrieldehner.github.io/devices/browser/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
-    "https://gabrieldehner.github.io/devices/browser/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
-    "https://gabrieldehner.github.io/devices/browser/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
-    "https://gabrieldehner.github.io/devices/browser/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "https://gabrieldehner.github.io/devices/browser/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "https://gabrieldehner.github.io/devices/browser/index.html": "b623b5c3cd59c65942b5f8c4a25ee73d1ec73d2f",
-    "https://gabrieldehner.github.io/devices/browser/main-VBKZCZZ5.js": "4e847701d6028ff4916521da88eba29ba903a572",
-    "https://gabrieldehner.github.io/devices/browser/manifest.webmanifest": "ce4582f657231b5b34695b45254af5b7ddb9502a",
-    "https://gabrieldehner.github.io/devices/browser/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "https://gabrieldehner.github.io/devices/browser/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "https://gabrieldehner.github.io/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "https://gabrieldehner.github.io/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "https://gabrieldehner.github.io/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "https://gabrieldehner.github.io/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "https://gabrieldehner.github.io/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "https://gabrieldehner.github.io/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "https://gabrieldehner.github.io/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "https://gabrieldehner.github.io/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "https://gabrieldehner.github.io/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "https://gabrieldehner.github.io/index.html": "c3e3180647354c127f6d305fb7619b72c92ee256",
+    "https://gabrieldehner.github.io/main-VBKZCZZ5.js": "4e847701d6028ff4916521da88eba29ba903a572",
+    "https://gabrieldehner.github.io/manifest.webmanifest": "ce4582f657231b5b34695b45254af5b7ddb9502a",
+    "https://gabrieldehner.github.io/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "https://gabrieldehner.github.io/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
