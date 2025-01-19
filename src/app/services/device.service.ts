@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class DeviceService {
   // private baseUrl = `http://api-devices-prod.us-east-1.elasticbeanstalk.com/`
-  private baseUrl = `http://api-devices-prod.us-east-1.elasticbeanstalk.com/`
+  private baseUrl = `https://dm99al67y1u3i.cloudfront.net/`
   private apiUrl = `${this.baseUrl}api/historical/device/2`;
 
   constructor(private http: HttpClient) {}
