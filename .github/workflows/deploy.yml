@@ -18,7 +18,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: 18 # Ajusta según la versión compatible de Angular
+        node-version: 16 # Ajusta según la versión compatible de Angular
         cache: 'npm'
 
     # 3. Instalar dependencias
