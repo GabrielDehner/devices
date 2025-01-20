@@ -9,13 +9,11 @@ import { Observable } from 'rxjs';
 export class DeviceService {
   // private baseUrl = `http://api-devices-prod.us-east-1.elasticbeanstalk.com/`
   private baseUrl = `https://dm99al67y1u3i.cloudfront.net/`
-  private apiUrl = `${this.baseUrl}api/historical/device/2`;
 
   constructor(private http: HttpClient) {}
 
-  getDeviceData(): Observable<any> {
-    // Definir el token de autenticación
-    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzM3MjY4MjYyLCJleHAiOjE3MzczNTQ2NjJ9.t6VfvAvz6D1zteMm1LTlHYUehGfjxaO7rb9Y4CtQ500';
+  async getDeviceData(deviceId = 2) {
+    const token  = (await this.getToken(deviceId).toPromise())?.token
 
     // Crear las cabeceras con el Bearer Token
     const headers = new HttpHeaders({
@@ -23,6 +21,10 @@ export class DeviceService {
     });
 
     // Realizar la solicitud GET con las cabeceras
-    return this.http.get(this.apiUrl, { headers });
+    return await this.http.get(`${this.baseUrl}api/historical/device/${deviceId}`, { headers }).toPromise();
+  }
+
+  getToken(deviceId: number): Observable<{token:string}>{
+    return this.http.post<{token:string}>(`${this.baseUrl}api/devices/login`, { device_id: deviceId });
   }
 }
