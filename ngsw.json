@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1737378148575,
+  "timestamp": 1737509109837,
   "index": "https://gabrieldehner.github.io/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "https://gabrieldehner.github.io/favicon.ico",
         "https://gabrieldehner.github.io/index.html",
-        "https://gabrieldehner.github.io/main-I7HUEJ26.js",
+        "https://gabrieldehner.github.io/main-U42ZBULO.js",
         "https://gabrieldehner.github.io/manifest.webmanifest",
         "https://gabrieldehner.github.io/polyfills-FFHMD2TL.js",
-        "https://gabrieldehner.github.io/styles-5INURTSO.css"
+        "https://gabrieldehner.github.io/styles-JURZ2KCM.css"
       ],
       "patterns": []
     },
@@ -35,7 +35,15 @@
         "https://gabrieldehner.github.io/icons/icon-384x384.png",
         "https://gabrieldehner.github.io/icons/icon-512x512.png",
         "https://gabrieldehner.github.io/icons/icon-72x72.png",
-        "https://gabrieldehner.github.io/icons/icon-96x96.png"
+        "https://gabrieldehner.github.io/icons/icon-96x96.png",
+        "https://gabrieldehner.github.io/media/fa-brands-400-Q3XCMWHQ.woff2",
+        "https://gabrieldehner.github.io/media/fa-brands-400-R2XQZCET.ttf",
+        "https://gabrieldehner.github.io/media/fa-regular-400-QSNYFYRT.woff2",
+        "https://gabrieldehner.github.io/media/fa-regular-400-XUOPSR7E.ttf",
+        "https://gabrieldehner.github.io/media/fa-solid-900-5ZUYHGA7.woff2",
+        "https://gabrieldehner.github.io/media/fa-solid-900-PJNKLK6W.ttf",
+        "https://gabrieldehner.github.io/media/fa-v4compatibility-LFEHZI6Y.woff2",
+        "https://gabrieldehner.github.io/media/fa-v4compatibility-YY67RJWG.ttf"
       ],
       "patterns": []
     }
@@ -51,11 +59,19 @@
     "https://gabrieldehner.github.io/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "https://gabrieldehner.github.io/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "https://gabrieldehner.github.io/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "https://gabrieldehner.github.io/index.html": "005f0bd45e4230f5376cd1190bcdf4dafbc7bb28",
-    "https://gabrieldehner.github.io/main-I7HUEJ26.js": "6af76f3cd30651eb4fedf42762a1a05bc2a5401b",
+    "https://gabrieldehner.github.io/index.html": "84c3f72aaa1a8ac87a5dee6300dd10d2ded07fd0",
+    "https://gabrieldehner.github.io/main-U42ZBULO.js": "20551e972e33b54b422c6c3955d2447be08be674",
     "https://gabrieldehner.github.io/manifest.webmanifest": "ce4582f657231b5b34695b45254af5b7ddb9502a",
+    "https://gabrieldehner.github.io/media/fa-brands-400-Q3XCMWHQ.woff2": "31c30351084e2670bbe5c47bd342e11540a68717",
+    "https://gabrieldehner.github.io/media/fa-brands-400-R2XQZCET.ttf": "da6f537cd597b76d264970f1c95e4beebc82fde9",
+    "https://gabrieldehner.github.io/media/fa-regular-400-QSNYFYRT.woff2": "e9b6f5b842be227e2423733feb961dd6cb804066",
+    "https://gabrieldehner.github.io/media/fa-regular-400-XUOPSR7E.ttf": "6e7f0651059eea9783ea8b28892b2c979c2f7f30",
+    "https://gabrieldehner.github.io/media/fa-solid-900-5ZUYHGA7.woff2": "7cd8afd6501962fda35d66f0e4c3b8815ac471d8",
+    "https://gabrieldehner.github.io/media/fa-solid-900-PJNKLK6W.ttf": "780a8ff16ebb681f85d5d30fac94ebe845a12b5e",
+    "https://gabrieldehner.github.io/media/fa-v4compatibility-LFEHZI6Y.woff2": "4fd82f39237a3e52cb4e311d1961bbb47353a147",
+    "https://gabrieldehner.github.io/media/fa-v4compatibility-YY67RJWG.ttf": "ad415f99aab4d9bf17e523f484a377f839ca8c3c",
     "https://gabrieldehner.github.io/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "https://gabrieldehner.github.io/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "https://gabrieldehner.github.io/styles-JURZ2KCM.css": "af909edc49794f7c83ea4514429356250cf90802"
   },
   "navigationUrls": [
     {
