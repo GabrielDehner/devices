@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import Highcharts from 'highcharts'; // Asegúrate de importar Highcharts de esta forma
 import { HighchartsChartModule } from 'highcharts-angular';
-import { DeviceService } from '../services/device.service';
+import { DeviceService } from '../../services/device.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 

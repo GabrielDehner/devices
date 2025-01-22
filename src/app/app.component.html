@@ -1,4 +1,29 @@
+   <div class="home-container">
 
-
-<router-outlet />
-<app-temperature-widget></app-temperature-widget>
+    <header class="header" *ngIf="isLogged()">
+      <div class="user-info">
+        <i class="fas fa-user-circle user-icon"></i>
+        <span>{{ getUserName() }}</span>
+      </div>
+      <button class="logout-button" (click)="logout()">Logout</button>
+    </header>
+  
+  
+    <div class="main">
+  
+      <div class="sidebar" *ngIf="isLogged()">
+        <h2>Menu</h2>
+        <ul>
+          <li (click)="navigateTo('home')">Home</li>
+          <li (click)="navigateTo('devices')">Ver Dispositivos</li>
+          <li (click)="navigateTo('home')">Gestionar Dispositivos</li>
+          <li (click)="navigateTo('home')">Gestionar Roles</li>
+        </ul>
+      </div>
+  
+      
+      <div class="content">
+        <router-outlet></router-outlet> 
+      </div>
+    </div>
+  </div>
